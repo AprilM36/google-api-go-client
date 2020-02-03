@@ -5,7 +5,7 @@ require (
 	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/google/go-cmp v0.3.0
 	github.com/hashicorp/golang-lru v0.5.1 // indirect
-	go.opencensus.io v0.22.0
+	go.opencensus.io v0.22.3
 	golang.org/x/lint v0.0.0-20190409202823-959b441ac422
 	golang.org/x/net v0.0.0-20190503192946-f4e77d36d62c // indirect
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
