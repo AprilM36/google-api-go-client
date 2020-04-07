@@ -15,6 +15,6 @@ require (
 	golang.org/x/tools v0.0.0-20190506145303-2d16b83fe98c
 	google.golang.org/appengine v1.6.1
 	google.golang.org/genproto v0.0.0-20190502173448-54afdca5d873
-	google.golang.org/grpc v1.20.1
+	google.golang.org/grpc v1.28.1
 	honnef.co/go/tools v0.0.0-20190418001031-e561f6794a2a
 )
