@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: gomod
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: google.golang.org/grpc
+    versions:
+    - 1.35.0
+    - 1.36.0
+    - 1.36.1
+  - dependency-name: go.opencensus.io
+    versions:
+    - 0.22.5
+    - 0.22.6
+  - dependency-name: github.com/google/go-cmp
+    versions:
+    - 0.5.4
